@@ -13,6 +13,22 @@ console.log(mydate.toLocaleDateString()) //28/4/2024
 let myCreatedDate = new Date(2023,0,23,5,3) //monnth starts from 0 in js
 console.log(myCreatedDate.toLocaleString()); //23/1/2023, 5:03:00 am
 
-//Create own date 1.
+//Create own date2.
 let myCreatedDate1 = new Date("2023-01-14")
 console.log(myCreatedDate1.toLocaleString());
+
+
+//Create own date 3.
+let myCreatedDate2 = new Date("01-14-2023")
+console.log(myCreatedDate2.toLocaleString());    
+
+//Timestamp
+let myTimestamp = Date.now();
+console.log(myTimestamp);
+console.log(myCreatedDate.getTime());
+
+//second me conversion
+
+console.log(Date.now()/1000); //give in decimal
+
+console.log(Math.floor(Date.now()/1000));
