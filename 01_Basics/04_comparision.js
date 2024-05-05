@@ -10,7 +10,7 @@ console.log("2" === 2); //it will check  value and type both(strict check)
 
 
 //equality checks and comparisions work differently
-console.log(null > 0);
+console.log(null > 0); 
 console.log(null == 0); 
 console.log(null >= 0); //means comparator converts null to number and equality not
 

@@ -24,5 +24,4 @@ let state; //it is undefined => we had not stored any value
 
 console.log(typeof {});
 console.log(typeof null)
-
 console.log(typeof undefined)
